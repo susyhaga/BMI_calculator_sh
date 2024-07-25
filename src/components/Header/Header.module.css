@@ -92,7 +92,7 @@
 }
 
 .button{
-    padding: 1rem 1rem; /* Ajuste o padding conforme necessário */
+    padding: 0.5rem 0.5rem; /* Ajuste o padding conforme necessário */
     margin-top:0;
     font-weight: bold;
     background-color: rgb(45, 17, 17);
