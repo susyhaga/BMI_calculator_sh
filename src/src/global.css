@@ -1,0 +1,15 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+ /* criando variaveis de cores */
+:root{
+    --primaryColor:#485460;
+    --secondaryColor: #CAD3C8;
+    --tableColor:#14181c;
+}
