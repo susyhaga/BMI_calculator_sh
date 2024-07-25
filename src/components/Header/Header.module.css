@@ -92,8 +92,6 @@
 }
 
 .button{
-        margin-top:0.1rem;
-    margin-top:1rem;
     font-weight: bold;
     background-color: rgb(45, 17, 17);
     color: var(--secondaryColor);
