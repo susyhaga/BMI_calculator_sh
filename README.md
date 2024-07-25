@@ -12,7 +12,7 @@ The BMI is highlighted in the table so that the user can see their classificatio
 
 
 # Languages
-Java Script
+JavaScript
 CSS
 HTML
 
