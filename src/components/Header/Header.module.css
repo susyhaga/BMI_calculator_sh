@@ -75,6 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /*alinha  itens no inicio do eixo tranversal(horizontal no caso) */
+    margin-bottom: 2rem;
 }
 
 .label{
