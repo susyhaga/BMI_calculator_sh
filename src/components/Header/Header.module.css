@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primaryColor);
+    padding: 0;
+    transition: height 0.5s ease; /* Transição suave */
+
+}
+.fullscreen {
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    width: 100vw;  /* Ocupa toda a largura da viewport */
+}
+
+.shrink {
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    width: 100%;  /* Ajusta a largura conforme o conteúdo */
+    padding: 10px;
+}
+.icon{
+    width: 6rem;
+    margin-bottom: 1rem;
+
+}
+.title{
+    color: var(--secondaryColor);
+    font-weight: bolder;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+
+}
+.line{
+    width: 100%; 
+    border:none;
+    background: rgba(202, 211, 200, 0.1); 
+    height: 3px; 
+    margin-bottom: 2rem;
+    
+}
+.p{
+    color: var(--secondaryColor);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 1px var(--secondaryColor), 0 0 6px var(--secondaryColor), 0 0 3px var(--secondaryColor), 0 0 5px var(--secondaryColor);
+    }
+    10% {
+        text-shadow: 0 0 2px var(--secondaryColor), 0 0 4px var(--secondaryColor), 0 0 2px var(--secondaryColor), 0 0 10px var(--secondaryColor);
+    }
+}
+
+
+.span {
+    animation: glow 3s infinite alternate; /* Aplica a animação de brilho */
+}
+.inputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem; 
+
+}
+
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*alinha  itens no inicio do eixo tranversal(horizontal no caso) */
+}
+
+.label{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--secondaryColor);
+    margin-bottom: 0.2rem;
+}
+.input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.button{
+    padding: 0.3rem;
+    margin-top:1rem;
+    font-weight: bold;
+    background-color: rgb(45, 17, 17);
+    color: var(--secondaryColor);
+
+}
