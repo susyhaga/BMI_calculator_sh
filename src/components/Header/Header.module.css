@@ -16,7 +16,6 @@
 }
 
 .shrink {
-    height: 100%;
     width: 100%;  /* Ajusta a largura conforme o conteúdo */
     padding: 10px;
 }
