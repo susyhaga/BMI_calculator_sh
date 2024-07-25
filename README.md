@@ -1,8 +1,21 @@
-# React + Vite
+# BMI CALCULATOR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I developed this responsive project using the React framework (or library...nobody knows). 
 
-Currently, two official plugins are available:
+It's Body Mass Index calculator. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The screen initially appears with the Header in fullscreen mode.
+Then the BMI is calculated, and the Header shrinks to fit the screen along with the classification table. 
+
+The BMI is highlighted in the table so that the user can see their classification.
+
+
+
+# Languages
+Java Script
+CSS
+HTML
+
+# Library
+React
+
