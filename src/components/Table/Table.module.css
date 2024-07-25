@@ -1,10 +1,10 @@
 .tableContainer {
     margin-top: 2rem;
-    width: 90vw;
-    height:100vh;
+    width: 80vw;
     padding: 1rem;
     background-color:var(--tableColor);
     max-width: 100vw; 
+    max-height: 100vh;
 }
 
 .table {
