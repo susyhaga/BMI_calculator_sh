@@ -5,21 +5,29 @@ import Table from './components/Table';
 function App() {
   const [bmi, setBmi] = useState(null);
   const [showTable, setShowTable] = useState(false);
-  const [isLoading, setIsLoading] = useState(false); 
 
-  const handleCalculate = (bmiValue) => {
-    setIsLoading(true); // Ativa o carregamento
-    setTimeout(() => { // Simula um delay
+  const handleCalculate = (weight, height) => {
+    const weightValue = parseFloat(weight);
+    const heightValue = parseFloat(height);
+
+    if (isNaN(weightValue) || isNaN(heightValue) || heightValue === 0) {
+      alert('Please enter valid numbers for weight and height.');
+      return;
+    }
+
+    const bmiValue = weightValue / (heightValue * heightValue);
+    
+    
+    setTimeout(() => { 
       setBmi(bmiValue);
       setShowTable(true);
-      setIsLoading(false); // Desativa o carregamento após o delay
-    }, 1000);
+    }, 3000); 
   };
 
   return (
     <div>
       <Header onCalculate={handleCalculate} />
-      {showTable && <Table bmi={bmi} isLoading={isLoading} />}
+      {showTable && <Table bmi={bmi} />}
     </div>
   );
 }
