@@ -1,6 +1,7 @@
 .tableContainer {
     margin-top: 2rem;
-    width: 80vw;
+    width: 90vw;
+    height:100vh;
     padding: 1rem;
     background-color:var(--tableColor);
     max-width: 100vw; 
