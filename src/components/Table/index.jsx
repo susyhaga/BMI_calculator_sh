@@ -20,7 +20,7 @@ const Table = ({ bmi }) => {
             <table className={styles.table}>
                 <thead>
                     <tr>
-                        <th>Measurement</th>
+                        <th>Classification</th>
                         <th>Value</th>
                     </tr>
                 </thead>

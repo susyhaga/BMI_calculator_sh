@@ -32,6 +32,10 @@ const Header = () => {
         <header className={`${styles.header} ${isFullScreen ? styles.fullscreen : styles.shrink}`}>
             <img src={icon} alt="Calculator Icon" className={styles.icon} />
             <h1 className={styles.title}>BMI CALCULATOR</h1>
+            <div className={styles.text}>
+                <h3 className={styles.textTitle}>What is BMI?</h3>
+                <p className={styles.textP}>For more than 150 years, the Body Mass Index (BMI) tool has been used to estimate how much body fat someone has to understand whether they are a healthy weight for their height. While it is a quick, easy-to-use, and popular measure, it can also be misleading in certain cases and for some groups of people.</p>
+            </div>
             <hr className={styles.line} />
             <p className={styles.p}>
                 Type your measurements below to find out if your <span className={styles.span}>Body Mass Index</span> is healthy
@@ -47,6 +51,7 @@ const Header = () => {
                         onChange={handleWeightChange}
                     />
                 </div>
+
                 <div className={styles.inputGroup}>
                     <label className={styles.label}>HEIGHT (m)</label>
                     <input
@@ -61,6 +66,7 @@ const Header = () => {
             </div>
             {showTable && <Table bmi={bmi} />} {/* Exibir a tabela se showTable for true */}
         </header>
+        
     );
 };
 
