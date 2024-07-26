@@ -61,8 +61,8 @@
 .text{
     background-color: var(--textColor);
     width: 70vw;
-    margin-top:10px;
-    margin-bottom: 1.2rem;
+    margin-top:40px;
+    margin-bottom: 1.5rem;
     border-radius:1rem;
 }
 .textTitle{
