@@ -7,11 +7,10 @@
     background-color: var(--primaryColor);
     transition: height 0.5s ease; 
     overflow-x: hidden;
-    overflow-y: hidden;
 
 }
 .fullscreen {
-    height: 110vh;
+    height: 120vh;
     width: 100vw;  
     padding-bottom: 50px;
     margin-top: 0;
@@ -32,9 +31,9 @@
 .title{
     color: var(--secondaryColor);
     font-weight: bolder;
-    font-size: 8rem;
-    margin-bottom: 0.1rem;
-    margin-top: 0.1rem;
+    font-size: 6rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
 
 }
 .p{
@@ -60,7 +59,7 @@
 
 
 .text{
-    background-color: var(--tableColor);
+    background-color: var(--textColor);
     width: 70vw;
     margin-top:20px;
     margin-bottom: 1rem;
@@ -100,7 +99,7 @@
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 10px;
-    gap:1rem; 
+    gap: 3rem; 
 
 }
 
@@ -113,22 +112,23 @@
 
 .label{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--buttonColor);
+    margin-bottom: 0.1rem;
 }
 .input{
-    padding:0.6rem;
+    padding:1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 2rem;
 }
 
 .button{
-    padding: 0.8rem;
-    margin-top: 12px;
+    padding: 1rem;
+    margin-top: 40px;
     color: var(--secondaryColor);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     background-color: var(--buttonColor);
     color: var(--secondaryColor);
 }
@@ -209,8 +209,10 @@
         font-size: 12px;
     }
     .inputContainer {
-        gap: 0.2rem;
+        gap: 0rem;
         margin-top: 0.5rem;
+        margin-right: 0;
+        margin-top:0;
         margin-bottom: auto;
     }
 
