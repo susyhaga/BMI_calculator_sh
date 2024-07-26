@@ -39,10 +39,9 @@
 .p{
     color:var(--textColor);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.1rem;
     text-align: center;
     margin-top:40px;
-    margin-bottom:6px;
 }
 
 @keyframes glow {
@@ -62,7 +61,7 @@
     background-color: var(--textColor);
     width: 70vw;
     margin-top:40px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 40px;
     border-radius:1rem;
 }
 .textTitle{
