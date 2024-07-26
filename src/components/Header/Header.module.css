@@ -305,13 +305,12 @@
         padding: 0;
     }
 
-    .inputContainer {
+     .inputContainer {
+        gap: 0rem;
         margin-top: 10px;
         padding-top: 0;
-        margin-right: 2px;
-        margin-left: 2px;
-        gap: 1px;
-
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .inputGroup {
