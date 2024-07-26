@@ -213,9 +213,10 @@
         gap: 0rem;
         margin-top: 0.5rem;
         margin-right: 0;
-        margin-top:0;
-        padding-left:10px;
-        padding-right: 10px;
+        margin-left:0;
+        margin-right:0;
+        padding-left:0px;
+        padding-right: 0px;
     }
 
     .inputGroup {
