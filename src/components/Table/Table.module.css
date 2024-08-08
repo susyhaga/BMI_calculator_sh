@@ -1,31 +1,107 @@
+
 .tableContainer {
-    margin-top: 1rem;
-    width: 80vw;
-    padding: 1rem;
-    background-color:var(--tableColor);
-    max-width: 100vw; 
-    max-height: 100vh;
+    background-color: var(--inputColor);
+    height: 60vh;
+    width: 100vw; 
+    height: auto;
+    border-bottom: 4px solid var(--secondaryColor);
+    padding-bottom: 3rem;
 }
+
+.centerResult{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 40vw;
+    height: 18vh;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 8rem;
+    color:var(--secondaryColor);
+    border-collapse: collapse;
+    background-color:var(--tableColor);
+    color: var(--secondaryColor);
+    border: 6px solid var(--buttonColor); 
+}
+
+.gifContainer{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height:16vh;
+    margin:0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1rem;
+}
+
+.gif{
+    width: 16vw;
+    height:13vh;
+    border-radius: 20%;
+
+}
+
+.bmiResultText{
+    color: var(--secondaryColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    font-style: normal;
+    margin:0;
+    padding-top: 4.4rem;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+    white-space: nowrap; 
+
+}
+
+.glowBmiResult{
+    justify-content: center;
+    margin-left: 0;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    animation: glow 3s infinite alternate; 
+    font-size:3.6rem;
+    color: var(--secondaryColor)
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 1px var(--secondaryColor), 0 0 6px var(--secondaryColor), 0 0 3px var(--secondaryColor), 0 0 5px var(--secondaryColor);
+    }
+    10% {
+        text-shadow: 0 0 2px var(--secondaryColor), 0 0 4px var(--secondaryColor), 0 0 2px var(--secondaryColor), 0 0 10px var(--secondaryColor);
+    }
+}
+
+
 
 .table {
-    width: 100%;
+    margin-top: 5rem;
+    font-family: sans-serif;
+    width: 70%;
+    height: auto;
     border-collapse: collapse;
+    background-color:var(--tableColor);
     color: var(--secondaryColor);
+    border:8px solid var(--buttonColor); 
 }
 
-.h2{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size:  50px;
-    color: var(--secondaryColor);
-    margin: 1rem;
+
+.subTitle{
+    font-size: 3rem;
+    border: 1px solid var(--secondaryColor);
+    padding: 1rem;
+    text-align: center;
 }
-.table th, .table td {
+.table td {
     border: 1px solid var(--secondaryColor);
     padding: 12px;
     text-align: center;
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .table th {
@@ -41,38 +117,141 @@
     color: black;
 }
 
-/* Media queries para telas menores */
-@media (max-width: 768px) {
+
+
+
+/* Media queries para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .tableContainer {
         width: 100vw; 
+        height: auto;
+        padding-top: 1rem;
     }
-    .h2{
-        font-size:  30px;
+
+    .centerResult{
+        width: 60vw;
+        height: 16vh;
+        margin-top: 1rem;
+        margin-bottom: 0;
     }
-    .table th, .table td {
+    
+    .gifContainer{
+        display: flex;
+        flex-direction: row;
+        width: 26vw;
+        height:18vh;
+        padding-top: 0.8rem;
+        margin-top: 0;
+    }
+    
+    .gif {
+        width: 28vw; /* Ajusta o gif para ocupar toda a largura do container */
+        height: 12vh; /* Mantém a proporção do gif */
+        border-radius: 30%;
+        padding-right: 1.8rem;
+        padding-left: 0.5rem;
+    }
+    
+    .bmiResultText{
+        
+        font-size: 1.3rem;
+        padding-top:5rem;
+        padding-left: 1rem;
+        margin:0;
+    }
+    
+    .glowBmiResult{
+        
+        padding-top:3rem;
+        padding-left: 0;
+        padding-right: 0;
+        font-size:2.5rem;
+        
+    }
+
+    .table {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        width: 80%;
+        height: 60%;
+    }
+    .subTitle{
+        font-size: 2rem;
+        border: 1px solid var(--secondaryColor);
+    }
+    .table td {
         border: 1px solid var(--secondaryColor);
         padding: 12px;
         text-align: center;
-        font-size:  20px;
+        font-size: 1.5rem;
+    } 
+}
+
+
+
+/* Media queries para smartphones */
+@media (max-width:767px){
+
+    .centerResult {
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: center; 
+        width: 52%; 
+        height: 14vh;
+        padding: 2rem 11rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .gifContainer {
+        width: 27vw; 
+        height: auto;
+        margin-bottom: 1.8rem; 
+        padding-left: 0.5rem;
+        padding-right: 0;
+        margin-top: 1rem;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .gif {
+        width: 27vw; 
+        height: auto;
+        border-radius: 30%;
+    }
+    .bmiResultText {
+        font-size: 1.2rem; 
+        padding-top: 1.8rem;
+        padding-left: 3rem;
+        text-align: center; 
+        width: 100%; 
+    }
+    .glowBmiResult {
+        font-size: 2rem; 
+        padding-top:2.4rem;
+        padding-left: 3.5rem;
+        padding-right: 0.5rem;
+        margin-top: 0;
+    }
+
+    .table {
+        margin-top:1rem;
+        width: 89%;
+        height: auto;
+    }
+    .subTitle{
+        font-size: 1.5rem;
+    }
+    .table td {
+        border: 1px solid var(--secondaryColor);
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
     }
 }
 
+
+/* Estilos para celulares pequenos */
 @media (max-width: 480px) {
-
-
-    .tableContainer {
-        width: 90%; /* Ajustar a largura da tabela no contêiner */
-        height: 100%;
-        padding: 0.5rem;
-        margin-top: 10px;
-    }
-
-    .table th, .table td {
-        padding: 4px; /* Reduzir o padding nas células da tabela */
-    }
-
-    .h2 {
-        font-size: 1.5rem; /* Ajustar o tamanho da fonte */
-    }
+    /* Estilos específicos para celulares pequenos */
 }

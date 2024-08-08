@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Table.module.css';
+import gif from '../../assets/medo.gif'
 
 const Table = ({ bmi }) => {
     const getClassification = (bmi) => {
@@ -15,13 +16,21 @@ const Table = ({ bmi }) => {
     const classification = getClassification(bmi);
 
     return (
+        
         <div className={styles.tableContainer}>
-            <h2 className={styles.h2}>Your BMI is: {bmi ? bmi.toFixed(2) : 'N/A'}</h2>
+            <div className={styles.centerResult}>
+                    <h2 className={styles.bmiResultText}>Your BMI is:</h2>
+                    <p className={styles.glowBmiResult}>{bmi ? bmi.toFixed(2) : 'N/A'}</p>
+                    
+                <div className={styles.gifContainer}>
+                    <img src={gif} alt="afraid gif" className={styles.gif} />
+                </div>
+            </div>
             <table className={styles.table}>
                 <thead>
                     <tr>
-                        <th>Classification</th>
-                        <th>Value</th>
+                        <th className={styles.subTitle}>Classification</th>
+                        <th className={styles.subTitle}>Value</th>
                     </tr>
                 </thead>
                 <tbody>
