@@ -18,6 +18,7 @@
     height: 100vh;
 }
 
+
 .headerElements{
     display: flex;
     flex-direction: column;
@@ -300,7 +301,7 @@ p {
             padding-bottom: 2rem;
         }
         .containerInput {
-            height: 30vh;
+            height: 44vh;
             border-bottom: none;
             margin-right: 0;
             margin-bottom: 0;
@@ -321,7 +322,7 @@ p {
             font-size: 1.2rem;
             line-height: 2.4rem;
             padding-top: 1rem;
-            margin-top: 0;
+            margin-top: 2rem;
 
         }
         .inputElement {
@@ -341,10 +342,10 @@ p {
         .button {
             width: 16vw;
             height: 6vh;
-            margin-top: 5.3rem;
+            margin-top: 5.7rem;
             padding-bottom: 0;
             padding-top: 1.4rem;
-            padding-left: 0.8rem;
+            padding-left: 0.5rem;
             margin-left: 1.5rem;
         }
     
@@ -423,19 +424,19 @@ p {
 @media (max-width:767px){
 
     .icon {
-        padding-top:1rem;
-        padding-bottom: 0;
-        width:5rem;
+        padding-top:6rem;
+        padding-bottom: 0.2rem;
+        width:4rem;
     }
     .title {
-        margin-bottom: 0rem;
-        margin-top: 0rem;
-        font-size:3rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size:2rem;
     }
     .text {
         width: 70vw;
         margin:2rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
         padding:0;
         padding-top: 1rem;
         border-radius: 50%;
@@ -459,19 +460,19 @@ p {
 
     .shrink{
         .icon {
-            padding-top:20rem;
-            width:5rem;
+            padding-top:24rem;
+            width:4rem;
             margin-bottom: 1rem;
         }
         .title {
-            font-size: 3rem;
-            padding-bottom: 2rem;
+            font-size: 2rem;
+            padding-bottom: 3rem;
         }
         .containerInput {
             margin-top: 0;
             margin-bottom: 0;
             padding-bottom: 0.5rem;
-            height: 38vh;
+            height: 42vh;
             margin-top: 0;
         }
         .inputGroups {
@@ -480,54 +481,57 @@ p {
             margin-top:2rem;
             padding-bottom: 1rem;
             padding-top: 1rem;
-            padding-left: 9rem;
-            padding-right: 8rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
             gap:0.2rem;
         }
         .p{
-            font-size: 1.2rem;
-            line-height: 1.7rem;
-            margin-top: 0rem;
+            font-size: 0.9rem;
+            line-height: 1.6rem;
+            margin-top: 1rem;
             padding-top: 1rem;
         }
         .inputElement {
-            width:70vw;
+            width:40vw;
             margin-top: 1rem;
             padding-top: 0;
         }
         .label{
             font-size: 0.7rem;
             padding-bottom: 0.1rem;
-            margin-left: 0.7rem;
+            margin-left: 0.5rem;
+            padding-left: 0.6rem;
         }
         .input {
-            margin-right:1em;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            margin-right:0;
+            margin-left: 0rem;
             padding: 1.4rem;
             padding-right: 1rem;
             padding-left: 1rem;
-            margin-top: 0.1rem;
             width:24vw;
             height: 8vh;
             font-size: 1rem;
         }
         .button {
-            width: 16vw;
-            height:5vh;
-            margin-top: 2.9rem;
-            margin-left: 0rem;
+            width: 14vw;
+            height:4vh;
+            margin-top: 3rem;
+            margin-left: 1rem;
             padding: 0.1rem;
-            padding-top:0.5rem;
-            padding-bottom: 1rem;
+            padding-top:0.3rem;
+            padding-bottom: 0rem;
             padding-right: 1rem;
             padding-left: 0.3rem;
             font-size:0.5rem;
         }
 
         .buttonText{
-            font-size: 0.6rem;
+            font-size: 0.4rem;
             margin-left: 0;
-            padding-right: 0;
-            padding-left: 0.3rem;
+            padding-right: 0rem;
+            padding-left: 0rem;
             padding-top:0.3rem;
         }
         .gif{
@@ -546,16 +550,17 @@ p {
         margin-top: 0;
     }
     .inputGroups {
-        gap: 1rem;
+        gap: 0.5rem;
         width: 50%;
         margin-top: 1.5rem;
     }
 
     .p{
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
         padding-top: 0;
-        font-size:1.2rem;
-        line-height: 2rem;
+        font-size:0.9rem;
+        line-height: 1.6rem;
         padding-bottom: 0;
     }
     .label{
@@ -567,22 +572,24 @@ p {
     .input {
         font-size: 1rem;
         padding: 1rem;
+        margin-left: 1rem;
         width: 28vw;
         height: 10vh;
     }
     .button {
-        width:6rem;
+        width:4rem;
         height: 2.5rem;
         padding: 0.8rem;
-        padding-bottom: 1.2rem;
-        padding-left: 0.6rem;
-        margin-top: 2.4rem;
-        margin-left: 0.5rem;
+        padding-left: 0.4rem;
+        margin-top: 2rem;
+        margin-left: 0.4rem;
         margin-right: 1rem;
     }
 
     .buttonText{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
+        margin-left: 0;
+        padding-top: 0.1rem;
     }
     
 
