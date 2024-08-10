@@ -3,6 +3,7 @@ import styles from './Header.module.css';
 import icon from '../../assets/imc.png';
 import Table from '../Table'; // Certifique-se de que o caminho está correto
 
+
 const Header = () => {
     const [weight, setWeight] = useState('');
     const [height, setHeight] = useState('');

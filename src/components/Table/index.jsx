@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Table.module.css';
-import gif from '../../assets/medo.gif'
 
 const Table = ({ bmi }) => {
     const getClassification = (bmi) => {
