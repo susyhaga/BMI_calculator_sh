@@ -17,3 +17,5 @@ const useLockOrientation = () => {
 };
 
 export default useLockOrientation;
+
+

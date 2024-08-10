@@ -13,10 +13,11 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 1rem;
-    width: 40vw;
+    width: 30vw;
     height: 18vh;
     font-weight: bold;
     font-family: sans-serif;
+    font-style: italic;
     font-size: 8rem;
     color:var(--secondaryColor);
     border-collapse: collapse;
@@ -25,35 +26,18 @@
     border: 6px solid var(--buttonColor); 
 }
 
-.gifContainer{
-    display: flex;
-    flex-direction: row;
-    width: 20vw;
-    height:16vh;
-    margin:0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 1rem;
-}
-
-.gif{
-    width: 16vw;
-    height:13vh;
-    border-radius: 20%;
-
-}
 
 .bmiResultText{
     color: var(--secondaryColor);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-style: normal;
     margin:0;
-    padding-top: 4.4rem;
+    padding-top: 4rem;
     padding-right: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1.4rem;
     white-space: nowrap; 
 
 }
@@ -61,7 +45,7 @@
 .glowBmiResult{
     justify-content: center;
     margin-left: 0;
-    padding-top: 1.8rem;
+    padding-top: 2.2rem;
     padding-left: 1rem;
     padding-right: 0rem;
     animation: glow 3s infinite alternate; 
@@ -130,40 +114,24 @@
     }
 
     .centerResult{
-        width: 60vw;
-        height: 16vh;
+        width: 40vw;
+        height: 14vh;
         margin-top: 1rem;
         margin-bottom: 0;
     }
-    
-    .gifContainer{
-        display: flex;
-        flex-direction: row;
-        width: 26vw;
-        height:18vh;
-        padding-top: 0.8rem;
-        margin-top: 0;
-    }
-    
-    .gif {
-        width: 28vw; /* Ajusta o gif para ocupar toda a largura do container */
-        height: 12vh; /* Mantém a proporção do gif */
-        border-radius: 30%;
-        padding-right: 1.8rem;
-        padding-left: 0.5rem;
-    }
+
     
     .bmiResultText{
         
-        font-size: 1.3rem;
-        padding-top:5rem;
-        padding-left: 1rem;
+        font-size: 1.4rem;
+        padding-top:3.8rem;
+        padding-left: 1.6rem;
         margin:0;
     }
     
     .glowBmiResult{
         
-        padding-top:3rem;
+        padding-top:2rem;
         padding-left: 0;
         padding-right: 0;
         font-size:2.5rem;
@@ -198,40 +166,28 @@
         flex-direction: row; 
         align-items: center; 
         justify-content: center; 
-        width: 52%; 
+        width: 20%; 
         height: 14vh;
-        padding: 2rem 11rem;
-        margin-top: 1rem;
+        padding: 2rem 8rem;
+        margin-top:0;
         margin-bottom: 3rem;
     }
-    .gifContainer {
-        width: 27vw; 
-        height: auto;
-        margin-bottom: 1.8rem; 
-        padding-left: 0.5rem;
-        padding-right: 0;
-        margin-top: 1rem;
-        margin-right: 0;
-        padding-right: 0;
-    }
-    .gif {
-        width: 27vw; 
-        height: auto;
-        border-radius: 30%;
-    }
+
     .bmiResultText {
         font-size: 1.2rem; 
-        padding-top: 1.8rem;
-        padding-left: 3rem;
+        padding-top: 0.6rem;
+        padding-left:3.5rem;
         text-align: center; 
         width: 100%; 
     }
     .glowBmiResult {
         font-size: 2rem; 
+        margin-left: 1rem;
         padding-top:2.4rem;
-        padding-left: 3.5rem;
-        padding-right: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 0;
         margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     .table {
@@ -248,10 +204,4 @@
         text-align: center;
         font-size: 1rem;
     }
-}
-
-
-/* Estilos para celulares pequenos */
-@media (max-width: 480px) {
-    /* Estilos específicos para celulares pequenos */
 }

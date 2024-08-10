@@ -19,12 +19,8 @@ const Table = ({ bmi }) => {
         
         <div className={styles.tableContainer}>
             <div className={styles.centerResult}>
-                    <h2 className={styles.bmiResultText}>Your BMI is:</h2>
-                    <p className={styles.glowBmiResult}>{bmi ? bmi.toFixed(2) : 'N/A'}</p>
-                    
-                <div className={styles.gifContainer}>
-                    <img src={gif} alt="afraid gif" className={styles.gif} />
-                </div>
+                <h2 className={styles.bmiResultText}>Your BMI is:</h2>
+                <p className={styles.glowBmiResult}>{bmi ? bmi.toFixed(2) : 'N/A'}</p>
             </div>
             <table className={styles.table}>
                 <thead>
