@@ -460,7 +460,7 @@ p {
 
     .shrink{
         .icon {
-            padding-top:24rem;
+            padding-top:30rem;
             width:4rem;
             margin-bottom: 1rem;
         }
@@ -472,41 +472,43 @@ p {
             margin-top: 0;
             margin-bottom: 0;
             padding-bottom: 0.5rem;
-            height: 42vh;
+            height: auto;
             margin-top: 0;
         }
         .inputGroups {
-            width: 86%;
+            width: 89%;
             height: 22vh;
-            margin-top:2rem;
-            padding-bottom: 1rem;
+            margin-top:1rem;
+            margin-right:1rem;
+            margin-left: 0;
+            padding-bottom: 1.5rem;
             padding-top: 1rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 1.8rem;
             gap:0.2rem;
         }
         .p{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             line-height: 1.6rem;
-            margin-top: 1rem;
-            padding-top: 1rem;
+            margin-top: 2rem;
+            padding-top: 0;
         }
         .inputElement {
-            width:40vw;
+            width:30vw;
             margin-top: 1rem;
-            padding-top: 0;
+            margin-left: 0;
         }
         .label{
             font-size: 0.7rem;
-            padding-bottom: 0.1rem;
+            padding-top: 0.5rem;
             margin-left: 0.5rem;
             padding-left: 0.6rem;
         }
         .input {
             margin-top: 0;
             margin-bottom: 1rem;
-            margin-right:0;
-            margin-left: 0rem;
+            margin-right:00.5rem;
+            margin-left: 0;
             padding: 1.4rem;
             padding-right: 1rem;
             padding-left: 1rem;
@@ -515,23 +517,23 @@ p {
             font-size: 1rem;
         }
         .button {
-            width: 14vw;
-            height:4vh;
-            margin-top: 3rem;
-            margin-left: 1rem;
+            width: 18vw;
+            height:5vh;
+            margin-top: 3.3rem;
+            margin-left:0.2rem;
             padding: 0.1rem;
-            padding-top:0.3rem;
+            padding-top:0.5rem;
             padding-bottom: 0rem;
-            padding-right: 1rem;
-            padding-left: 0.3rem;
-            font-size:0.5rem;
+            padding-right: 0.5rem;
+            padding-left: 0.7rem;
+            font-size:0.7rem;
         }
 
         .buttonText{
             font-size: 0.4rem;
             margin-left: 0;
-            padding-right: 0rem;
-            padding-left: 0rem;
+            padding-right: 0;
+            padding-left: 0;
             padding-top:0.3rem;
         }
         .gif{
@@ -550,16 +552,17 @@ p {
         margin-top: 0;
     }
     .inputGroups {
-        gap: 0.5rem;
+        gap: 0.3rem;
         width: 50%;
         margin-top: 1.5rem;
+        margin-left: 5rem;
     }
 
     .p{
         margin-top: 2rem;
         margin-bottom: 1rem;
         padding-top: 0;
-        font-size:0.9rem;
+        font-size:1rem;
         line-height: 1.6rem;
         padding-bottom: 0;
     }
@@ -572,7 +575,8 @@ p {
     .input {
         font-size: 1rem;
         padding: 1rem;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.8rem;
         width: 28vw;
         height: 10vh;
     }
@@ -581,9 +585,9 @@ p {
         height: 2.5rem;
         padding: 0.8rem;
         padding-left: 0.4rem;
-        margin-top: 2rem;
-        margin-left: 0.4rem;
-        margin-right: 1rem;
+        margin-top: 2.1rem;
+        margin-left: 0.6rem;
+        margin-right: 0rem;
     }
 
     .buttonText{
