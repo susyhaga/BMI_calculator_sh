@@ -41,7 +41,8 @@
 .text {
     color: var(--secondaryColor);
     background-color: #00000078;
-    width: 38vw;
+    width: 40vw;
+    height: auto;
     border-radius: 50%;
     margin-bottom: 1rem;
     padding-top: 1rem;
@@ -54,14 +55,14 @@
     color: var(--secondaryColor);
     font-weight: bolder;
     font-size: 1.8rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.1rem;
 }
 
 .textP {
-    padding-top: 0.8rem;
+    padding-top: 0.4rem;
     padding-bottom: 2rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
     text-align: center;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -488,7 +489,7 @@ p {
             gap:0.2rem;
         }
         .p{
-            font-size: 1.2rem;
+            font-size: 0.8rem;
             line-height: 1.6rem;
             margin-top: 2rem;
             padding-top: 0;
@@ -499,7 +500,7 @@ p {
             margin-left: 1.6rem;
         }
         .label{
-            font-size: 1rem;
+            font-size: 0.8rem;
             padding-top: 0.5rem;
             margin-left: 1.4rem;
         }
@@ -556,15 +557,15 @@ p {
         gap: 0.3rem;
         width: 50%;
         margin-top: 2rem;
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
 
     .p{
         margin-top: 2rem;
         margin-bottom: 1rem;
         padding-top: 0;
-        font-size:1.4rem;
-        line-height: 2rem;
+        font-size:1rem;
+        line-height: 1.8rem;
         padding-bottom: 0;
     }
     .label{
@@ -582,20 +583,20 @@ p {
         height: 10vh;
     }
     .button {
-        width:10rem;
-        height: 3rem;
+        width:4rem;
+        height: 2.3rem;
         padding: 0.8rem;
         padding-left: 0.4rem;
-        margin-top: 2.1rem;
-        margin-left: 0.6rem;
+        margin-top: 2.2rem;
+        margin-left: 0.4rem;
         margin-right: 0rem;
     }
 
     .buttonText{
         font-size: 0.5rem;
         margin-left: 0;
-        padding-top: 0.4rem;
-        padding-left: 0.5rem;
+        padding-top: 0rem;
+        padding-left: 0;
     }
     
 
