@@ -460,8 +460,8 @@ p {
 
     .shrink{
         .icon {
-            padding-top:30rem;
-            width:4rem;
+            padding-top:24rem;
+            width:5rem;
             margin-bottom: 1rem;
         }
         .title {
@@ -479,59 +479,60 @@ p {
             width: 89%;
             height: 22vh;
             margin-top:1rem;
-            margin-right:1rem;
+            margin-right:0;
             margin-left: 0;
             padding-bottom: 1.5rem;
             padding-top: 1rem;
             padding-left: 0.5rem;
-            padding-right: 1.8rem;
+            padding-right: 2rem;
             gap:0.2rem;
         }
         .p{
-            font-size: 0.8rem;
+            font-size: 1.2rem;
             line-height: 1.6rem;
             margin-top: 2rem;
             padding-top: 0;
         }
         .inputElement {
-            width:30vw;
+            width:40vw;
             margin-top: 1rem;
-            margin-left: 0;
+            margin-left: 1.6rem;
         }
         .label{
-            font-size: 0.7rem;
+            font-size: 1rem;
             padding-top: 0.5rem;
-            margin-left: 0.5rem;
-            padding-left: 0.6rem;
+            margin-left: 1.4rem;
         }
         .input {
             margin-top: 0;
             margin-bottom: 1rem;
-            margin-right:00.5rem;
+            margin-right:0.5rem;
             margin-left: 0;
             padding: 1.4rem;
             padding-right: 1rem;
             padding-left: 1rem;
-            width:24vw;
+            width: 26vw;
             height: 8vh;
             font-size: 1rem;
         }
         .button {
-            width: 18vw;
+            width: 14vw;
             height:5vh;
-            margin-top: 3.3rem;
-            margin-left:0.2rem;
+            margin-top: 3.8rem;
+            margin-left:1rem;
+            margin-right: 1rem;
             padding: 0.1rem;
             padding-top:0.5rem;
             padding-bottom: 0rem;
-            padding-right: 0.5rem;
-            padding-left: 0.7rem;
+            padding-right: 0.8rem;
+            padding-left: 0.3rem;
             font-size:0.7rem;
         }
 
         .buttonText{
-            font-size: 0.4rem;
+            font-size: 0.6rem;
             margin-left: 0;
+            margin-right: 0;
             padding-right: 0;
             padding-left: 0;
             padding-top:0.3rem;
@@ -541,7 +542,7 @@ p {
         }
         .footerContainer p {
             padding-top: 1.4rem;
-            font-size: 0.8rem;
+            font-size: 1rem;
             font-weight: 2rem;
             height: auto;
         }
@@ -554,16 +555,16 @@ p {
     .inputGroups {
         gap: 0.3rem;
         width: 50%;
-        margin-top: 1.5rem;
-        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-left: 7rem;
     }
 
     .p{
         margin-top: 2rem;
         margin-bottom: 1rem;
         padding-top: 0;
-        font-size:1rem;
-        line-height: 1.6rem;
+        font-size:1.4rem;
+        line-height: 2rem;
         padding-bottom: 0;
     }
     .label{
@@ -581,8 +582,8 @@ p {
         height: 10vh;
     }
     .button {
-        width:4rem;
-        height: 2.5rem;
+        width:10rem;
+        height: 3rem;
         padding: 0.8rem;
         padding-left: 0.4rem;
         margin-top: 2.1rem;
@@ -593,7 +594,8 @@ p {
     .buttonText{
         font-size: 0.5rem;
         margin-left: 0;
-        padding-top: 0.1rem;
+        padding-top: 0.4rem;
+        padding-left: 0.5rem;
     }
     
 
