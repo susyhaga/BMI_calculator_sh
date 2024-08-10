@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 1rem;
-    width: 30vw;
+    width: 28vw;
     height: 18vh;
     font-weight: bold;
     font-family: sans-serif;
@@ -37,7 +37,7 @@
     margin:0;
     padding-top: 4rem;
     padding-right: 1rem;
-    padding-left: 1.4rem;
+    padding-left:3.5rem;
     white-space: nowrap; 
 
 }
@@ -49,7 +49,7 @@
     padding-left: 1rem;
     padding-right: 0rem;
     animation: glow 3s infinite alternate; 
-    font-size:3.6rem;
+    font-size:3.8rem;
     color: var(--secondaryColor)
 }
 @keyframes glow {
