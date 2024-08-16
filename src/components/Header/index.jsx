@@ -64,9 +64,7 @@ const Header = () => {
                                 onChange={handleHeightChange}
                             />
                         </div>
-                        <div className={styles.button}>
-                            <button className={styles.buttonText} onClick={handleCalculateClick}>CALCULATE</button>
-                        </div>
+                        <button className={styles.button} onClick={handleCalculateClick}>CALCULATE</button>
                     </div>
                 </div>
                 {showTable && <Table bmi={bmi} />} {/* Exibir a tabela se showTable for true */}

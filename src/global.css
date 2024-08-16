@@ -5,15 +5,9 @@
 }
 
 
-
 /* Estilo básico para garantir que o conteúdo preencha a tela em landscape */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    transform: rotate(0deg);
+    transform: rotate(-90deg);
     overflow-x: hidden;
 }
  /* criando variaveis de cores */

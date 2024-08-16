@@ -1,7 +1,6 @@
 
 .tableContainer {
     background-color: var(--inputColor);
-    height: 60vh;
     width: 100vw; 
     height: auto;
     border-bottom: 4px solid var(--secondaryColor);
@@ -12,9 +11,9 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1rem;
-    width: 28vw;
-    height: 18vh;
+    width: 34%;
+    height: 14vh;
+    margin-top: 2rem;
     font-weight: bold;
     font-family: sans-serif;
     font-style: italic;
@@ -35,9 +34,9 @@
     font-size: 2.6rem;
     font-style: normal;
     margin:0;
-    padding-top: 4rem;
+    padding-top: 2.8rem;
     padding-right: 1rem;
-    padding-left:3.5rem;
+    padding-left:2rem;
     white-space: nowrap; 
 
 }
@@ -45,9 +44,9 @@
 .glowBmiResult{
     justify-content: center;
     margin-left: 0;
-    padding-top: 2.2rem;
-    padding-left: 1rem;
-    padding-right: 0rem;
+    margin-right: 0;
+    padding-top:1.8rem;
+    padding-left: 1.5rem;
     animation: glow 3s infinite alternate; 
     font-size:3.8rem;
     color: var(--secondaryColor)
@@ -65,6 +64,7 @@
 
 .table {
     margin-top: 5rem;
+    margin-bottom: 2rem;
     font-family: sans-serif;
     width: 70%;
     height: auto;
@@ -114,8 +114,8 @@
     }
 
     .centerResult{
-        width: 40vw;
-        height: 14vh;
+        width: 50%;
+        height: auto;
         margin-top: 0;
         padding-top: 0;
         margin-bottom: 0;
@@ -124,15 +124,15 @@
     
     .bmiResultText{
         font-size: 1.8rem;
-        padding-top:3.8rem;
-        padding-left: 1rem;
+        padding-top:2.6rem;
+        padding-left: 2.4rem;
         margin:0;
     }
     
     .glowBmiResult{
         
-        padding-top:2.3rem;
-        padding-left: 0;
+        padding-top:2rem;
+        padding-left: 0.8rem;
         padding-right: 0;
         font-size:2.5rem;
         
@@ -166,16 +166,16 @@
         flex-direction: row; 
         align-items: center; 
         justify-content: center; 
-        width: 20%; 
-        height: 14vh;
+        width: 50%; 
+        height: 12vh;
         padding: 2rem 8rem;
-        margin-top:1.8rem;
+        margin-top:0;
         margin-bottom: 3rem;
     }
 
     .bmiResultText {
-        font-size: 1.2rem; 
-        padding-top: 0.6rem;
+        font-size: 1.4rem; 
+        padding-top: 0;
         padding-left:3.5rem;
         text-align: center; 
         width: 100%; 
@@ -183,7 +183,7 @@
     .glowBmiResult {
         font-size: 2rem; 
         margin-left: 1rem;
-        padding-top:2.4rem;
+        padding-top:2.5rem;
         padding-left: 3rem;
         padding-right: 0;
         margin-top: 0;
@@ -191,7 +191,8 @@
     }
 
     .table {
-        margin-top:1rem;
+        margin-top:3rem;
+        margin-bottom: 1rem;
         width: 89%;
         height: auto;
     }
