@@ -464,7 +464,7 @@ p {
         }
         .button {
             width:4rem;
-            height:1.8rem;
+            height:1.7rem;
             border:2px solid rgb(40, 28, 28);
             margin-top:1.6rem;
             margin-left:0.8rem;
@@ -507,7 +507,7 @@ p {
     }
     .button {
         margin-left: 0.5rem;
-        height: 2.4rem;
+        height: 2.2rem;
         width: 5rem;
         margin-top: 1.6rem;
         font-size: 0.6rem;
@@ -531,22 +531,22 @@ p {
         margin: 1rem 0 2rem 0;
     }
     .text {
-        width: 84vw;
-        height: 32vh;
+        width: 88vw;
+        height: 30vh;
         margin: 0;
         margin-bottom: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0;
     }
     .textTitle {  
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         padding:0;
         margin: 0;
     }
     .textP {
         margin:0;
-        padding:0 1rem 0 1rem;
-        font-size: 0.5rem;
-        line-height: 1.2rem;
+        padding:0.5rem 1rem 0 1rem;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
     }
 
     .shrink{
@@ -559,7 +559,7 @@ p {
         }
 
         .p{
-            font-size: 0.8rem;
+            font-size: 0.9rem;
         }
         .label{
             padding-top: 1rem;
@@ -567,8 +567,8 @@ p {
         .inputGroups {
             margin:1rem;
             padding:1rem;
-            width: 80%;
-            height:15vh;
+            width: 86%;
+            height:20vh;
             gap:0.5rem;
         }
         .input {
@@ -629,6 +629,6 @@ p {
     }
     .footerContainer p{
         margin:0;
-        padding-top: 2rem;
+        padding-top: 1rem;
     } 
 }
