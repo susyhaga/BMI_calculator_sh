@@ -522,19 +522,20 @@ p {
 /* Media queries para smartphones modernos*/
 @media  (max-width: 375px) { 
     .icon {
-        padding-top: 1rem;
+        padding-top: 6rem;
         margin-top: 0;
-        width: 3rem;
+        width: 4rem;
     }
     .title {
         font-size:2rem;
-        margin: 1.5rem 0 2rem 0;
+        margin: 1rem 0 2rem 0;
     }
     .text {
         width: 80vw;
-        height: 24vh;
+        height: 28vh;
         margin: 0;
         margin-bottom: 2rem;
+        padding-bottom: 1rem;
     }
     .textTitle {  
         font-size: 0.8rem;
@@ -550,7 +551,7 @@ p {
 
     .shrink{
         .icon {
-            padding-top: 22rem;
+            padding-top: 26rem;
             width: 4rem;
         }
         .title{
@@ -561,13 +562,13 @@ p {
             font-size: 0.8rem;
         }
         .label{
-            padding-top: 1.6rem;
+            padding-top: 1rem;
         }
         .inputGroups {
             margin:1rem;
             padding:1rem;
             width: 80%;
-            height:20vh;
+            height:15vh;
             gap:0.5rem;
         }
         .input {
@@ -578,11 +579,11 @@ p {
             font-size: 0.6rem;
         }
         .button {
-            width:3.5rem;
-            height:1.8rem;
-            margin-top:3.2rem;
-            margin-left:0.5rem;
-            font-size: 0.4rem;
+            width:3.7rem;
+            height:1.9rem;
+            margin-top:2.5rem;
+            margin-left:0.4rem;
+            font-size: 0.5rem;
         }
 
         .footerContainer p {
@@ -597,7 +598,7 @@ p {
     }
     .p{
         font-size: 0.9rem;
-        line-height: 1.4rem;
+        line-height: 1.2rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
         padding:0;
@@ -605,7 +606,7 @@ p {
 
     .inputGroups {
         margin:0;
-        width: 80%;
+        width: 86%;
         height:15vh;
         gap:0.5rem;
     }
@@ -620,14 +621,14 @@ p {
         font-size: 0.6rem;
     }
     .button {
-        width:4rem;
-        height:2rem;
-        margin-top:1.5rem;
-        margin-left:0.5rem;
-        font-size: 0.5rem;
+        width:5rem;
+        height:2.3rem;
+        margin-top:1.3rem;
+        margin-left:0.8rem;
+        font-size: 0.6rem;
     }
     .footerContainer p{
         margin:0;
-        padding-top: 1rem;
+        padding-top: 2rem;
     } 
 }
