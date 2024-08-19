@@ -387,12 +387,12 @@ p {
 
 
 /* Media queries para smartphones medios*/
-@media (max-width: 480px){
+@media (max-width: 414px){
     .icon {
         margin:0;
         padding-top:4rem;
         padding-bottom: 0;
-        width:5rem;
+        width:4rem;
     }
     .title {
         margin: 1rem 0 2rem 0;
@@ -400,8 +400,8 @@ p {
         font-size:2.6rem;
     }
     .text {
-        width: 72vw;
-        height:26vh;
+        width: 82vw;
+        height:28vh;
         margin:0 0 2rem 0;
         padding: 1.5rem;
         padding-bottom: 0;
@@ -423,7 +423,7 @@ p {
         .icon {
             padding-top:18rem;
             margin:0;
-            width:6rem;
+            width:4rem;
         }
         .title {
             font-size: 2.4rem;
@@ -445,7 +445,7 @@ p {
         .inputGroups {
             margin-top: 0;
             margin-bottom: 0;
-            width: 70%;
+            width: 80%;
             height:15vh;
             gap:0.8rem;
         }
@@ -486,8 +486,8 @@ p {
 
     .p{
         margin:0;
-        padding:1.8rem;
-        font-size: 1rem;
+        padding:2rem;
+        font-size: 0.9rem;
         line-height: 1.5rem;
     }
     .inputGroups {
@@ -508,13 +508,13 @@ p {
     .button {
         margin-left: 0.5rem;
         height: 2.4rem;
-        width: 6rem;
-        margin-top: 1.8rem;
+        width: 5rem;
+        margin-top: 1.6rem;
         font-size: 0.6rem;
     }
     .footerContainer p {
         margin:0;
-        padding-top:1rem;
+        padding-top:0.5rem;
         font-size: 0.8rem;
     }
 }
