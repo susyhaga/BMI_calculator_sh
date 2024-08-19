@@ -462,15 +462,15 @@ p {
         }
         .button {
             width:3.4rem;
-            height:1.8rem;
+            height:1.9rem;
             border:2px solid rgb(40, 28, 28);
-            margin-top:1.6rem;
+            margin-top:1.4rem;
             margin-left:0.4rem;
             font-size: 0.4rem;
         }
 
         .footerContainer p {
-            padding:1rem;
+            padding-top: 1.2rem;
             margin:0;
             font-size: 0.8rem;
             font-weight: 2rem;
@@ -507,12 +507,12 @@ p {
         margin-left: 0.2rem;
         height: 2rem;
         width: 4rem;
-        margin-top: 1.9rem;
+        margin-top: 1.6rem;
         font-size: 0.5rem;
     }
     .footerContainer p {
         margin:0;
-        padding-top:0.5rem;
+        padding-top:0.3rem;
         font-size: 0.7rem;
     }
 }
