@@ -376,7 +376,6 @@ p {
         font-size: 1rem;
     }
     
-
     .footerContainer p {
         font-size: 1.3rem;
         margin-top: 0;
@@ -384,10 +383,8 @@ p {
     }
 
 }
-
-
-/* Media queries para smartphones medios*/
-@media (max-width: 414px){
+/* Media queries para smartphones grandes*/
+@media (max-width:480px){
     .icon {
         margin:0;
         padding-top:4rem;
@@ -400,14 +397,14 @@ p {
         font-size:2.6rem;
     }
     .text {
-        width: 84vw;
-        height:32vh;
-        margin:0 0 2rem 0;
+        width: 82vw;
+        height:28vh;
+        margin:0 0 1rem 0;
         padding: 1.5rem;
         padding-bottom: 0;
     }
     .textTitle {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 0.5rem;
         padding:0.5rem;
         margin-bottom: 0;
@@ -415,8 +412,141 @@ p {
     .textP{
         margin:0;
         padding: 0 1rem 0 1rem;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+    }
+
+    .shrink{
+        .icon {
+            padding-top:18rem;
+            margin:0;
+            width:4rem;
+        }
+        .title {
+            font-size: 2.4rem;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+        }
+
+        .containerInput{
+            height: auto;
+            padding-bottom: 3rem;
+        }
+        .p{
+            font-size: 1rem;
+            line-height: 1.6rem;
+            margin:0;
+            padding: 2rem;
+        }
+
+        .inputGroups {
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 80%;
+            height:15vh;
+            gap:0.8rem;
+        }
+        .label{
+            font-size: 0.6rem;
+            padding-bottom:0.2rem;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .input {
+            margin-top: 0;
+            padding:0.8rem;
+            width: 6rem;
+            height: 3rem;
+            font-size: 1rem;
+        }
+        .button {
+            width:8rem;
+            height:1.7rem;
+            border:2px solid rgb(40, 28, 28);
+            margin-top:1.6rem;
+            margin-left:0.8rem;
+            font-size: 0.6rem;
+        }
+
+        .footerContainer p {
+            padding:1.2rem;
+            margin:0;
+            font-size: 0.9rem;
+            font-weight: 2rem;
+        }
+    }
+
+    .containerInput{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .p{
+        margin:0;
+        padding:1.8rem;
+        font-size: 1rem;
         line-height: 1.5rem;
+    }
+    .inputGroups {
+        gap: 1rem;
+        margin: 0.8rem 0.5rem 2rem 0.5rem;
+        width: 58%;
+    }
+    .label{
+        font-size: 0.8rem;
+    }
+    .input {
+        margin:0;
+        font-size: 0.9rem;
+        padding: 1rem;
+        width: 26vw;
+        height: 7vh;
+    }
+    .button {
+        margin-left: 0.5rem;
+        height: 2.2rem;
+        width: 4rem;
+        margin-top: 1.8rem;
+        font-size: 0.5rem;
+    }
+    .footerContainer p {
+        margin:0;
+        padding-top:0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Media queries para smartphones */
+@media (max-width:375px){
+    .icon {
+        margin:0;
+        padding-top:8rem;
+        padding-bottom: 0;
+        width:4rem;
+    }
+    .title {
+        margin: 1rem 0 2rem 0;
+        padding:0;
+        font-size:2rem;
+    }
+    .text {
+        width: 90vw;
+        height:28vh;
+        margin:0 0 1rem 0;
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+    .textTitle {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        padding:0.5rem;
+        margin-bottom: 0;
+    }
+    .textP{
+        margin:0;
+        padding: 0 1rem 0 1rem;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
     }
 
     .shrink{
@@ -447,7 +577,7 @@ p {
             margin-bottom: 0;
             width: 80%;
             height:15vh;
-            gap:0.8rem;
+            gap:1rem;
         }
         .label{
             font-size: 0.6rem;
@@ -464,10 +594,10 @@ p {
         }
         .button {
             width:4rem;
-            height:1.7rem;
+            height:2rem;
             border:2px solid rgb(40, 28, 28);
-            margin-top:1.6rem;
-            margin-left:0.8rem;
+            margin-top:1.4rem;
+            margin-left:0.5rem;
             font-size: 0.5rem;
         }
 
@@ -481,13 +611,13 @@ p {
 
     .containerInput{
         height: auto;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     .p{
         margin:0;
-        padding:2rem;
-        font-size: 0.9rem;
+        padding:1.5rem;
+        font-size: 1rem;
         line-height: 1.5rem;
     }
     .inputGroups {
@@ -507,7 +637,7 @@ p {
     }
     .button {
         margin-left: 0.5rem;
-        height: 2.2rem;
+        height: 2.4rem;
         width: 5rem;
         margin-top: 1.6rem;
         font-size: 0.6rem;
@@ -522,7 +652,7 @@ p {
 /* Media queries para smartphones pequenos*/
 @media  (max-width: 360px) { 
     .icon {
-        padding-top: 6rem;
+        padding-top: 10rem;
         margin-top: 0;
         width: 4rem;
     }
@@ -559,8 +689,8 @@ p {
         }
 
         .p{
-            font-size: 1rem;
-            padding:0.5rem;
+            font-size: 0.9rem;
+            padding:0.8rem;
         }
         .label{
             padding-top: 1rem;
@@ -569,7 +699,7 @@ p {
             margin:1rem;
             padding:1rem;
             width: 86%;
-            height:15vh;
+            height:16vh;
             gap:1rem;
         }
         .input {
@@ -583,7 +713,7 @@ p {
             width:4rem;
             height:1.9rem;
             margin-top:2.5rem;
-            margin-left:0.2rem;
+            margin-left:0.4rem;
             font-size: 0.5rem;
         }
 
@@ -622,11 +752,11 @@ p {
         font-size: 0.6rem;
     }
     .button {
-        width:5rem;
-        height:2.3rem;
+        width:4rem;
+        height:2.2rem;
         margin-top:1.4rem;
         margin-left:0.8rem;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .footerContainer p{
         margin:0;

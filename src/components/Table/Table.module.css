@@ -158,8 +158,8 @@
 
 
 
-/* Media queries para smartphones */
-@media (max-width:414px){
+/* Media queries para smartphones grandes*/
+@media (max-width:480px){
 
     .centerResult {
         display: flex;
@@ -209,6 +209,18 @@
 }
 
 @media (max-width: 375px) { 
+    .bmiResultText {
+        padding-top: 0.6rem;
+        font-size: 1.5rem; 
+    }
+    .glowBmiResult {
+        padding-top:2.5rem;
+        font-size: 1.8rem;
+        
+    }
+}
+
+@media (max-width: 360px) { 
     .bmiResultText {
         padding-top: 0.6rem;
         font-size: 1.5rem; 
