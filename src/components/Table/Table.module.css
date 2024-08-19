@@ -159,7 +159,7 @@
 
 
 /* Media queries para smartphones */
-@media (max-width:767px){
+@media (max-width:480px){
 
     .centerResult {
         display: flex;
@@ -167,8 +167,8 @@
         align-items: center; 
         justify-content: center; 
         width: 50%; 
-        height: 12vh;
-        padding: 2rem 8rem;
+        height: 14vh;
+        padding: 2rem 9rem;
         margin-top:0;
         margin-bottom: 3rem;
     }
