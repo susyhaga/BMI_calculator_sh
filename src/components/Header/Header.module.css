@@ -387,27 +387,26 @@ p {
 
 
 /* Media queries para smartphones medios*/
-@media (max-width:480px){
-
+@media (max-width: 480px) {
     .icon {
-        padding-top:2rem;
+        padding-top:4rem;
         width:4rem;
     }
     .title {
-        margin-bottom: 1.8rem;
-        margin-top: 0.5rem;
-        font-size:2rem;
+        margin: 1rem 0 2rem 0;
+        font-size:2.5rem;
     }
     .text {
-        width: 80vw;
-        height:auto;
+        width: 72vw;
+        height:26vh;
         margin:0 0 2rem 0;
         padding: 1.5rem;
+        padding-bottom: 0;
     }
     .textTitle {
         font-size: 0.9rem;
-        margin-top: 0;
-        padding:0;
+        margin-top: 0.5rem;
+        padding:0.5rem;
         margin-bottom: 0;
     }
     .textP{
@@ -419,13 +418,14 @@ p {
 
     .shrink{
         .icon {
-            padding-top:12rem;
-            margin-bottom: 0.5rem;
+            padding-top:14rem;
+            margin:0;
             width:4rem;
         }
         .title {
-            font-size: 2rem;
-            padding-bottom: 1rem;
+            font-size: 2.4rem;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
         }
 
         .containerInput{
@@ -437,13 +437,13 @@ p {
             line-height: 1.6rem;
             margin-top: 1rem;
             margin-bottom: 1rem;
-            padding: 0.9rem;
+            padding: 1.8rem;
         }
 
         .inputGroups {
             margin-top: 0;
             margin-bottom: 0;
-            width: 82%;
+            width: 70%;
             height:15vh;
             gap:0.8rem;
         }
@@ -457,7 +457,7 @@ p {
             margin-top: 0;
             padding:0.8rem;
             width: 5rem;
-            height: 8rem;
+            height: 3rem;
             font-size: 1rem;
         }
         .button {
@@ -465,12 +465,12 @@ p {
             height:1.8rem;
             border:2px solid rgb(40, 28, 28);
             margin-top:1.5rem;
-            margin-left:0.5rem;
+            margin-left:0.8rem;
             font-size: 0.5rem;
         }
 
         .footerContainer p {
-            padding:1rem;
+            padding:1.2rem;
             margin:0;
             font-size: 0.9rem;
             font-weight: 2rem;
@@ -478,44 +478,43 @@ p {
     }
 
     .containerInput{
-        height: auto;
-        padding-bottom: 2rem;
+        height: 32vh;
+        padding-bottom: 1rem;
+    }
+
+    .p{
+        margin:0;
+        padding:1.8rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
     .inputGroups {
         gap: 1rem;
-        margin-top: 1.6rem;
+        margin-top: 0.8rem;
         margin-bottom: 2rem;
-        width: 70%;
-    }
-    .p{
-        margin-top: 0rem;
-        margin-bottom: 0;
-        padding:1.8rem;
-        padding-bottom: 0.5rem;
-        font-size: 0.9rem;
-        line-height: 1.5rem;
+        width: 60%;
     }
     .label{
         font-size: 0.6rem;
     }
     .input {
         margin:0;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         padding: 1rem;
         width: 27vw;
         height: 8vh;
     }
     .button {
         margin-left: 0.5rem;
-        height: 2rem;
+        height: 2.8rem;
         width: 6rem;
-        margin-top: 1.7rem;
+        margin-top: 1.4rem;
         font-size: 0.6rem;
     }
     .footerContainer p {
-        margin-top: 0;
-        padding:0.2rem;
-        padding-bottom: 0.8rem;
+        margin:0;
+        margin-bottom: 0;
+        padding:0.5rem;
         font-size: 0.8rem;
     }
 }

@@ -45,9 +45,10 @@ const Header = () => {
                     </p>
                     <div className={styles.inputGroups}>
                         <div className={styles.inputElement}>
-                            <label className={styles.label}>WEIGHT (kg)</label>
+                            <label className={styles.label} name="weight">WEIGHT (kg)</label>
                             <input
                                 className={styles.input}
+                                id="weight"
                                 type="text"
                                 placeholder="e.g: 50.5"
                                 value={weight}
@@ -55,9 +56,10 @@ const Header = () => {
                             />
                         </div>
                         <div className={styles.inputElement}>
-                            <label className={styles.label}>HEIGHT (m)</label>
+                            <label className={styles.label}name="height">HEIGHT (m)</label>
                             <input
                                 className={styles.input}
+                                id="height"
                                 type="text"
                                 placeholder="e.g: 1.60"
                                 value={height}
