@@ -420,7 +420,7 @@ p {
 
     .shrink{
         .icon {
-            padding-top:18rem;
+            padding-top:12rem;
             margin-bottom: 0.5rem;
             width:4rem;
         }
@@ -434,7 +434,7 @@ p {
             padding-bottom: 3rem;
         }
         .p{
-            font-size: 0.9rem;
+            font-size: 1rem;
             line-height: 1.6rem;
             margin-top: 1rem;
             margin-bottom: 1rem;
@@ -462,12 +462,12 @@ p {
             font-size: 1rem;
         }
         .button {
-            width:4rem;
-            height:3.2vh;
+            width:4.4rem;
+            height:2rem;
             border:2px solid black;
-            margin-top:1.7rem;
+            margin-top:1.4rem;
             margin-left:0.5rem;
-            font-size: 0.4rem;
+            font-size: 0.5rem;
         }
 
         .footerContainer p {
@@ -533,7 +533,8 @@ p {
     .text {
         width: 82vw;
         height: 28vh;
-        margin:1rem;
+        margin: 0;
+        margin-bottom: 1rem;
     }
     .textTitle {  
         font-size: 0.8rem;
@@ -584,7 +585,7 @@ p {
     .p{
         font-size: 0.8rem;
         line-height: 1.4rem;
-        margin: 2rem 1rem 2rem 1rem;
+        margin: 1rem 1rem 1rem 1rem;
         padding:0;
     }
 
