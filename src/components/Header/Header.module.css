@@ -519,6 +519,8 @@ p {
         font-size: 0.8rem;
     }
 }
+
+/* Media queries para smartphones  pequeno ex:Iphone8*/
 @media (max-width: 375px) { 
     .icon {
         padding-top: 4rem;
@@ -530,18 +532,18 @@ p {
     }
     .text {
         width: 82vw;
-        height: 30vh;
+        height: 28vh;
         margin:1rem;
     }
     .textTitle {  
         font-size: 0.8rem;
         padding:0;
-        margin:0;
+        margin: 0.5rem 0 0 0;
     }
     .textP {
         margin:0;
-        padding:0 1.5rem 0 1.5rem;
-        font-size: 0.6rem;
+        padding:0 1rem 0 1rem;
+        font-size: 0.5rem;
         line-height: 1.2rem;
     }
 
@@ -565,7 +567,7 @@ p {
         .button {
             width:4rem;
             height:1.6rem;
-            margin-top:1.7rem;
+            margin-top:1.6rem;
             margin-left:0.8rem;
             font-size: 0.5rem;
         }
