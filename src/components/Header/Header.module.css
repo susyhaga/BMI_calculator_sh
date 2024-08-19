@@ -523,7 +523,7 @@ p {
 /* Media queries para smartphones  pequeno ex:Iphone8*/
 @media (max-width: 375px) { 
     .icon {
-        padding-top: 4rem;
+        padding-top: 2rem;
         margin-bottom: 1rem;
     }
     .title {
