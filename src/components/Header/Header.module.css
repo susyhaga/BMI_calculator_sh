@@ -520,7 +520,7 @@ p {
 @media (max-width:375px){
     .icon {
         margin:0;
-        padding-top:4rem;
+        padding-top:8rem;
         padding-bottom: 0;
         width:4rem;
     }
@@ -637,7 +637,7 @@ p {
         margin-left: 0;
         height: 2rem;
         width: 4.2rem;
-        margin-top: 2rem;
+        margin-top: 1.9rem;
         font-size: 0.5rem;
     }
     .footerContainer p {
