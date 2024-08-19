@@ -206,3 +206,13 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 375px) { 
+    .bmiResultText {
+        padding-top: 0.6rem;
+    }
+    .glowBmiResult {
+        padding-top:2.4rem;
+        
+    }
+}

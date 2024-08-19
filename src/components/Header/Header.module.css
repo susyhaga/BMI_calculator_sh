@@ -42,8 +42,8 @@
 .text {
     color: var(--secondaryColor);
     background-color: #00000078;
-    width: 33vw;
-    height: 30vh;
+    width: 38vw;
+    height: 32vh;
     border-radius: 50%;
     margin-bottom: 2rem;
     margin-top: 0;
@@ -52,18 +52,18 @@
 .textTitle {  
     display: flex;
     justify-content: center;
-    margin: 1rem 0  0 0;
+    margin: 1rem 0 0 0;
     padding: 0.8rem;
     font-family: sans-serif;
     color: var(--secondaryColor);
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 2rem;
 }
 
 .textP {
-    margin-top: 0;
-    padding:0 3.9rem 0.5rem 3.9rem;
+    margin-top: 1rem;
+    padding:0 3.9rem 0 3.9rem;
     text-align: center;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -526,12 +526,11 @@ p {
     }
     .title {
         font-size:2rem;
-        margin:0;
-        margin: 1rem 0 1rem 0;
+        margin: 0.5rem 0 1rem 0;
     }
     .text {
-        width: 86vw;
-        height: 34vh;
+        width: 82vw;
+        height: 30vh;
         margin:1rem;
     }
     .textTitle {  
@@ -541,9 +540,9 @@ p {
     }
     .textP {
         margin:0;
-        padding:0.2rem 0.5 1rem 0.5;
+        padding:0 1.5rem 0 1.5rem;
         font-size: 0.6rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
     }
 
     .shrink{
