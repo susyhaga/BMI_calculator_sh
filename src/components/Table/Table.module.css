@@ -162,10 +162,6 @@
 @media (max-width:480px){
 
     .centerResult {
-        display: flex;
-        flex-direction: row; 
-        align-items: center; 
-        justify-content: center; 
         width: 50%; 
         height: 14vh;
         padding: 2rem 9rem;
@@ -209,12 +205,18 @@
 }
 
 @media (max-width: 375px) { 
+    .centerResult {
+        width: 50%; 
+        height: 12vh;
+        padding: 1.4rem 8rem 1.4rem 8rem;
+        margin-top:0;
+    }
     .bmiResultText {
-        padding-top: 0.6rem;
+        padding-top:0.2rem;
         font-size: 1.5rem; 
     }
     .glowBmiResult {
-        padding-top:2.5rem;
+        padding-top:0;
         font-size: 1.8rem;
         
     }

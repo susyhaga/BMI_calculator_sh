@@ -520,7 +520,7 @@ p {
 @media (max-width:375px){
     .icon {
         margin:0;
-        padding-top:8rem;
+        padding-top:4rem;
         padding-bottom: 0;
         width:4rem;
     }
@@ -538,9 +538,8 @@ p {
     }
     .textTitle {
         font-size: 0.8rem;
-        margin-top: 0.5rem;
-        padding:0.5rem;
-        margin-bottom: 0;
+        margin:0;
+        padding:0;
     }
     .textP{
         margin:0;
@@ -551,7 +550,7 @@ p {
 
     .shrink{
         .icon {
-            padding-top:20rem;
+            padding-top:24rem;
             margin:0;
             width:3rem;
         }
@@ -589,19 +588,19 @@ p {
             padding:0.8rem;
             width: 5rem;
             height: 3rem;
-            font-size: 1rem;
+            font-size: 0.5rem;
         }
         .button {
             width:3.5rem;
             height:1.6rem;
             border:2px solid rgb(40, 28, 28);
-            margin-top:1.6rem;
+            margin-top:1.7rem;
             margin-left:0;
             font-size: 0.4rem;
         }
 
         .footerContainer p {
-            padding:1.5rem;
+            padding:1.8rem;
             margin:0;
             font-size: 0.7rem;
             font-weight: 2rem;
@@ -615,30 +614,30 @@ p {
 
     .p{
         margin:0;
-        padding:1.5rem;
-        font-size: 0.8rem;
+        padding:1rem;
+        font-size: 0.9rem;
         line-height: 1.5rem;
     }
     .inputGroups {
         gap: 1rem;
         margin: 0.8rem 0.5rem 1rem 0.5rem;
-        width: 70%;
+        width: 80%;
     }
     .label{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .input {
         margin:0;
         font-size: 0.9rem;
         padding: 1rem;
-        width: 30vw;
-        height: 8vh;
+        width: 28vw;
+        height: 10vh;
     }
     .button {
-        margin-left: 0.5rem;
-        height: 2.2rem;
-        width: 4rem;
-        margin-top: 1.5rem;
+        margin-left: 0;
+        height: 2rem;
+        width: 4.2rem;
+        margin-top: 2rem;
         font-size: 0.5rem;
     }
     .footerContainer p {
