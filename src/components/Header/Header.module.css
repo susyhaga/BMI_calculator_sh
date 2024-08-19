@@ -519,4 +519,96 @@ p {
         font-size: 0.8rem;
     }
 }
+@media (max-width: 393px) { 
+    .icon {
+        
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .title {
+        font-size:2rem;
+        margin:0;
+        margin: 1rem 0 1rem 0;
+    }
+    .text {
+        color: var(--secondaryColor);
+        background-color: #00000078;
+        width: 76vw;
+        height: 32vh;
+        margin:0 0 2rem 0;
+        padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    }
+    .textTitle {  
+        font-size: 0.8rem;
+        margin: 0.8rem;
+    }
+    
+    .textP {
+        padding:0;
+        font-size: 0.6rem;
+        line-height: 1.5rem;
+    }
 
+    .shrink{
+        .inputGroups {
+            margin:0;
+            width: 80%;
+            height:20vh;
+            gap:0.5rem;
+        }
+        .input {
+            margin-top: 0;
+            padding:0.8rem;
+            width: 5rem;
+            height: 6rem;
+            font-size: 0.6rem;
+        }
+        .button {
+            width:4.5rem;
+            height:1.8rem;
+            margin-top:1.7rem;
+            margin-left:0.5rem;
+            font-size: 0.6rem;
+        }
+
+        .footerContainer p {
+            padding-top: 1rem;
+        }
+    }
+    .containerInput{
+        height: auto;
+        margin:0;
+        padding:0;
+    }
+    .p{
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+        margin: 2rem 1rem 2rem 1rem;
+        padding:0;
+    }
+
+    .inputGroups {
+        margin:0;
+        width: 80%;
+        height:15vh;
+        gap:0.5rem;
+    }
+    .label{
+        font-size: 0.6rem;
+    }
+    .input {
+        margin-top: 0;
+        padding:0.9rem;
+        width: 6rem;
+        height: 3.5rem;
+        font-size: 0.6rem;
+    }
+    .button {
+        width:4rem;
+        height:2rem;
+        margin-top:1.5rem;
+        margin-left:0.5rem;
+        font-size: 0.5rem;
+    }
+    
+}
