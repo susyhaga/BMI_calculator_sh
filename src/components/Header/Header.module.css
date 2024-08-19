@@ -387,14 +387,17 @@ p {
 
 
 /* Media queries para smartphones medios*/
-@media (max-width: 480px) {
+@media (max-width: 480px){
     .icon {
+        margin:0;
         padding-top:4rem;
-        width:4rem;
+        padding-bottom: 0;
+        width:5rem;
     }
     .title {
         margin: 1rem 0 2rem 0;
-        font-size:2.5rem;
+        padding:0;
+        font-size:2.6rem;
     }
     .text {
         width: 72vw;
@@ -418,9 +421,9 @@ p {
 
     .shrink{
         .icon {
-            padding-top:14rem;
+            padding-top:18rem;
             margin:0;
-            width:4rem;
+            width:6rem;
         }
         .title {
             font-size: 2.4rem;
@@ -435,8 +438,7 @@ p {
         .p{
             font-size: 1rem;
             line-height: 1.6rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin:0;
             padding: 1.8rem;
         }
 
@@ -478,8 +480,8 @@ p {
     }
 
     .containerInput{
-        height: 32vh;
-        padding-bottom: 1rem;
+        height: auto;
+        padding-bottom: 2rem;
     }
 
     .p{
@@ -490,50 +492,49 @@ p {
     }
     .inputGroups {
         gap: 1rem;
-        margin-top: 0.8rem;
-        margin-bottom: 2rem;
-        width: 60%;
+        margin: 0.8rem 0.5rem 2rem 0.5rem;
+        width: 58%;
     }
     .label{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .input {
         margin:0;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         padding: 1rem;
-        width: 27vw;
-        height: 8vh;
+        width: 26vw;
+        height: 7vh;
     }
     .button {
         margin-left: 0.5rem;
-        height: 2.8rem;
+        height: 2.4rem;
         width: 6rem;
-        margin-top: 1.4rem;
+        margin-top: 1.8rem;
         font-size: 0.6rem;
     }
     .footerContainer p {
         margin:0;
-        margin-bottom: 0;
-        padding:0.5rem;
+        padding-top:1rem;
         font-size: 0.8rem;
     }
 }
 
-/* Media queries para smartphones medios  ex:Iphone8*/
-@media (max-width: 414px) { 
+/* Media queries para smartphones modernos*/
+@media  (max-width: 375px) { 
     .icon {
-        padding-top: 2rem;
-        margin-bottom: 1rem;
+        padding-top: 1rem;
+        margin-top: 0;
+        width: 3rem;
     }
     .title {
         font-size:2rem;
-        margin: 0.5rem 0 1rem 0;
+        margin: 1.5rem 0 2rem 0;
     }
     .text {
-        width: 82vw;
-        height: 28vh;
+        width: 80vw;
+        height: 24vh;
         margin: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     .textTitle {  
         font-size: 0.8rem;
@@ -550,41 +551,55 @@ p {
     .shrink{
         .icon {
             padding-top: 22rem;
+            width: 4rem;
+        }
+        .title{
+            font-size: 2rem;
+        }
+
+        .p{
+            font-size: 0.8rem;
+        }
+        .label{
+            padding-top: 1.6rem;
         }
         .inputGroups {
-            margin:0;
+            margin:1rem;
+            padding:1rem;
             width: 80%;
             height:20vh;
             gap:0.5rem;
         }
         .input {
-            margin-top: 0;
+            margin:0;
             padding:0.8rem;
             width: 5rem;
-            height: 6rem;
+            height: 3rem;
             font-size: 0.6rem;
         }
         .button {
-            width:4rem;
-            height:1.6rem;
-            margin-top:1.6rem;
-            margin-left:0.8rem;
-            font-size: 0.5rem;
+            width:3.5rem;
+            height:1.8rem;
+            margin-top:3.2rem;
+            margin-left:0.5rem;
+            font-size: 0.4rem;
         }
 
         .footerContainer p {
             padding-top: 1rem;
+            font-size: 0.8rem;
         }
     }
     .containerInput{
         height: auto;
-        margin-bottom: 1rem;
-        padding:0;
+        padding:0.2rem;
+        margin:0;
     }
     .p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         line-height: 1.4rem;
-        margin: 1rem 1rem 1rem 1rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
         padding:0;
     }
 
@@ -607,13 +622,12 @@ p {
     .button {
         width:4rem;
         height:2rem;
-        margin-top:1.7rem;
+        margin-top:1.5rem;
         margin-left:0.5rem;
         font-size: 0.5rem;
     }
     .footerContainer p{
-        margin:0.6rem;
-        padding:0;
-    }
-    
+        margin:0;
+        padding-top: 1rem;
+    } 
 }
