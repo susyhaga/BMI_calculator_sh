@@ -519,8 +519,8 @@ p {
     }
 }
 
-/* Media queries para smartphones modernos*/
-@media  (max-width: 375px) { 
+/* Media queries para smartphones pequenos*/
+@media  (max-width: 360px) { 
     .icon {
         padding-top: 6rem;
         margin-top: 0;
@@ -559,7 +559,8 @@ p {
         }
 
         .p{
-            font-size: 0.9rem;
+            font-size: 1rem;
+            padding:0.5rem;
         }
         .label{
             padding-top: 1rem;
@@ -568,8 +569,8 @@ p {
             margin:1rem;
             padding:1rem;
             width: 86%;
-            height:20vh;
-            gap:0.5rem;
+            height:15vh;
+            gap:1rem;
         }
         .input {
             margin:0;
@@ -579,10 +580,10 @@ p {
             font-size: 0.6rem;
         }
         .button {
-            width:3.7rem;
+            width:4rem;
             height:1.9rem;
             margin-top:2.5rem;
-            margin-left:0.4rem;
+            margin-left:0.2rem;
             font-size: 0.5rem;
         }
 
