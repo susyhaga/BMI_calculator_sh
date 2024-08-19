@@ -159,19 +159,19 @@
 
 
 /* Media queries para smartphones grandes*/
-@media (max-width:480px){
+@media (max-width:414px){
 
     .centerResult {
         width: 50%; 
         height: 14vh;
-        padding: 2rem 9rem;
+        padding: 1.5rem 8rem 1.5rem 8rem;
         margin-top:0;
         margin-bottom: 3rem;
     }
 
     .bmiResultText {
         font-size: 1.4rem; 
-        padding-top: 0.8rem;
+        padding-top: 0.5rem;
         padding-left:3.5rem;
         text-align: center; 
         width: 100%; 
@@ -179,9 +179,9 @@
     }
     .glowBmiResult {
         font-size: 2rem; 
-        margin-left: 1rem;
-        padding-top:2.5rem;
-        padding-left: 3rem;
+        margin-left: 2rem;
+        padding-top:0;
+        padding-left: 2rem;
         padding-right: 0;
         margin-top: 0;
         margin-bottom: 1rem;
