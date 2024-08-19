@@ -42,35 +42,31 @@
 .text {
     color: var(--secondaryColor);
     background-color: #00000078;
-    width: 30vw;
-    height: auto;
+    width: 40vw;
+    height: 32vh;
     border-radius: 50%;
     margin-bottom: 1rem;
     margin-top: 0;
-    padding-top: 0.5rem;
-    padding-bottom: 1.4rem;
+    padding-top: 0.5rem 0  1.4rem 0;
 }
 .textTitle {  
     display: flex;
     justify-content: center;
-    margin-top: 1.8rem;
-    margin-bottom: 0;
+    margin: 3rem 0 1rem 0;
     font-family: sans-serif;
     color: var(--secondaryColor);
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 .textP {
-    padding-top: 0.2rem;
-    padding-bottom: 1rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding:1rem 3rem 1rem 3rem;
     text-align: center;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--secondaryColor);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 
@@ -521,7 +517,7 @@ p {
 }
 @media (max-width: 375px) { 
     .icon {
-        padding-top: 4rem;
+        padding-top: 6rem;
         margin-bottom: 1rem;
     }
     .title {
@@ -537,16 +533,17 @@ p {
     .textTitle {  
         font-size: 0.8rem;
         padding:0.2rem 0 0 0;
+        margin:0;
     }
     .textP {
-        padding:1rem 0 1rem 0;
+        padding:0.5rem 0 1rem 0;
         font-size: 0.6rem;
         line-height: 1.5rem;
     }
 
     .shrink{
         .icon {
-            padding-top: 6rem;
+            padding-top: 22rem;
         }
         .inputGroups {
             margin:0;
@@ -604,7 +601,7 @@ p {
     .button {
         width:4rem;
         height:2rem;
-        margin-top:1.6rem;
+        margin-top:1.7rem;
         margin-left:0.5rem;
         font-size: 0.5rem;
     }
