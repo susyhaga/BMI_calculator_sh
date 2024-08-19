@@ -207,7 +207,7 @@
 @media (max-width: 375px) { 
     .centerResult {
         width: 50%; 
-        height: 13vh;
+        height: 14vh;
         padding: 1.4rem 8rem 1.4rem 8rem;
         margin-top:0;
     }
